@@ -2,10 +2,10 @@
   "name": "askmaymay",
   "version": "0.0.1",
   "description": "Ask maymay bot",
-  "main": "index.js",
+  "main": "start.js",
   "scripts": {
-    "test": "test"
-  },
+    "start": "node --use_strict start.js"
+  },  
   "keywords": [
     "Telegram",
     "bot",
