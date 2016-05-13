@@ -1,12 +1,20 @@
 {
-  "name": "openshift-cartridge-nodejs-template",
-  "version": "1.0.1",
-  "description": "Custom Node.js cartridge for OpenShift - sample application",
-  "private": true,
-  "main": "start.js",
+  "name": "askmaymay",
+  "version": "0.0.1",
+  "description": "Ask maymay bot",
+  "main": "index.js",
   "scripts": {
-    "start": "node --use_strict start.js"
+    "test": "test"
   },
-  "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
-  "license": "ISC"
+  "keywords": [
+    "Telegram",
+    "bot",
+    "maymay"
+  ],
+  "author": "vimukthi-git",
+  "license": "ISC",
+  "dependencies": {
+    "node-ddg-api": "^0.1.4",
+    "request": "^2.72.0"
+  }
 }
